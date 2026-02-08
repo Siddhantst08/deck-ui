@@ -7,8 +7,9 @@ function App() {
   const [error, setError] = useState('')
 
   useEffect(() => {
-    const slug = window.location.pathname.slice(1)
-
+    const slug = window.location.hash.split("/")[1];
+    console.log(slug);
+    
     if (!slug) {
       setError('404: NOT FOUND')
       setLoading(false)
