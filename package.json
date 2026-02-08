@@ -2,7 +2,7 @@
   "name": "html-hosting",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://siddhantst08.github.io/html-hosting",
+  "homepage": "https://Siddhantst08.github.io/deck-ui/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
