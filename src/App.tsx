@@ -8,7 +8,6 @@ function App() {
 
   useEffect(() => {
     const slug = window.location.hash.split("/")[1];
-    console.log(slug);
     
     if (!slug) {
       setError('404: NOT FOUND')
